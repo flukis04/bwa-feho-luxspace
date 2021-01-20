@@ -6,6 +6,7 @@ const HTMLWebpackPlugin = require("html-webpack-plugin");
 const ImageMinPlugin = require("imagemin-webpack-plugin").default;
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const ESLintPlugin = require('eslint-webpack-plugin');
 
 const environment = require("./configs/env");
 
